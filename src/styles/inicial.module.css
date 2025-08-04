@@ -1,0 +1,237 @@
+.body {
+  background-color: #0B1B3F;
+  color: #111111;
+  font-family: sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cabeçalho */
+.header {
+  background-color: #126BC9;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav a {
+  margin-left: 1rem;
+  background-color: white;
+  color: #126BC9;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  background-color: #f0f0f0;
+}
+
+/* Seção principal */
+.section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 2rem;
+}
+
+.card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.cardTitle {
+  color: #126BC9;
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.cardText {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Rodapé */
+.footer {
+  background-color: #126BC9;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.875rem;
+}
+
+/* ... já existentes acima ... */
+
+.nav a {
+  margin-left: 1rem;
+  background-color: white;
+  color: #126BC9;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  display: inline-block;
+  margin-top: 0.25rem;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+/* Card responsivo */
+.card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Rodapé links */
+.footerLink {
+  color: white;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.footerLink:hover {
+  text-decoration: underline;
+}
+
+/* 🌐 Responsividade */
+@media screen and (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav {
+    margin-top: 0.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .section {
+    padding: 2rem 1rem;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+
+  .cardTitle {
+    font-size: 1.5rem;
+  }
+
+  .cardText {
+    font-size: 0.9rem;
+  }
+
+  .footer {
+    font-size: 0.75rem;
+    padding: 0.5rem;
+  }
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: white;
+  font-size: 0.85rem;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+.menuContent {
+  position: absolute;
+  top: 64px;
+  left: 0;
+  right: 0;
+  background-color: white;
+  padding: 1rem;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.menuContent a {
+  text-decoration: none;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  color: #126BC9;
+  font-weight: 600;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  margin-bottom: 0.5rem;
+}
+
+.menuContent a:hover {
+  background-color: #f0f0f0;
+}
+
+.fecharMenu {
+  background-color: #eee;
+  border: none;
+  padding: 0.5rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.fecharMenu:hover {
+  background-color: #ddd;
+}
+
+.conta {
+  background-color: white;
+  color: #126BC9;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.conta:hover {
+  background-color: #f0f0f0;
+}
+
+.email {
+  font-size: 0.75rem;
+}

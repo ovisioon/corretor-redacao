@@ -1,0 +1,74 @@
+.container {
+  background-color: #0B1B3F;
+  min-height: 100vh;
+  padding: 2rem;
+  font-family: sans-serif;
+  color: #111111;
+}
+
+.editorBox {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 900px;
+  margin: 0 auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.title {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #126BC9;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.label {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  display: block;
+  margin-top: 1.5rem;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.textarea {
+  height: 250px;
+  resize: vertical;
+  margin-top: 0.5rem;
+}
+
+.button {
+  margin-top: 1.5rem;
+  background-color: #126BC9;
+  color: white;
+  border: none;
+  padding: 0.75rem 1rem;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0F5FB0;
+}
+
+.resultado {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: #F7F7F7;
+  border-left: 6px solid #126BC9;
+  border-radius: 6px;
+  white-space: pre-wrap;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+

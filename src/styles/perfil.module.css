@@ -1,0 +1,111 @@
+.container {
+  background-color: #0B1B3F;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+/* Botão voltar */
+.voltar {
+  align-self: flex-start;
+  margin-bottom: 1rem;
+  padding: 0.4rem 0.75rem;
+  background-color: white;
+  color: #C62828;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid #C62828;
+  transition: background-color 0.2s ease;
+}
+
+.voltar:hover {
+  background-color: #f9d9d9;
+}
+
+/* Faixa vermelha */
+.cardTopBar {
+  height: 8px;
+  width: 100%;
+  max-width: 400px;
+  background-color: #C62828;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: -8px;
+}
+
+/* Card de perfil */
+.card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  border: 3px solid #126BC9;
+}
+
+.nome {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #126BC9;
+  margin-bottom: 0.25rem;
+}
+
+.serie {
+  font-size: 0.95rem;
+  color: #444;
+  margin-bottom: 0.75rem;
+}
+
+.bio {
+  font-style: italic;
+  color: #222;
+  margin-bottom: 1rem;
+}
+
+.email {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+/* Botões */
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.button {
+  padding: 0.5rem;
+  background-color: #126BC9;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #0F5FB0;
+}
+
+.link {
+  color: #126BC9;
+  font-size: 0.85rem;
+  text-decoration: underline;
+  margin-top: 0.5rem;
+}

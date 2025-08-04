@@ -1,0 +1,98 @@
+.container {
+  background-color: #0B1B3F;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+/* Botão voltar */
+.voltar {
+  align-self: flex-start;
+  margin-bottom: 1rem;
+  padding: 0.4rem 0.75rem;
+  background-color: white;
+  color: #126BC9;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid #126BC9;
+  transition: background-color 0.2s ease;
+}
+.voltar:hover {
+  background-color: #f0f0f0;
+}
+
+.formBox {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #126BC9;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.avatarPreview {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  border: 2px solid #126BC9;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+.input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  resize: vertical;
+}
+
+.button {
+  padding: 0.75rem;
+  width: 100%;
+  background-color: #126BC9;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0F5FB0;
+}
+
+.deleteButton {
+  background: none;
+  border: none;
+  color: #c00;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.deleteButton:hover {
+  text-decoration: underline;
+}
